@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "app-streamlit"
+version = "0.1.0"
+description = ""
+authors = ["kwchun0520 <ckw05200@gmail.com>"]
+readme = "README.md"
+packages = [{include = "app_streamlit", from = "src"}]
+
+[tool.poetry.dependencies]
+python = ">=3.9,<3.9.7 || >3.9.7,<4.0"
+streamlit = "^1.37.1"
+loguru = "^0.7.2"
+bs4 = "^0.0.2"
+langchain-chroma = "^0.1.2"
+langchain-community = "^0.2.11"
+langchain-text-splitters = "^0.2.2"
+langchain-google-genai = "^1.0.8"
+protobuf = "3.20.2"
+langchainhub = "^0.1.20"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
