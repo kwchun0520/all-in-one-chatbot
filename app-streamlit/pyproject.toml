@@ -17,6 +17,7 @@ langchain-text-splitters = "^0.2.2"
 langchain-google-genai = "^1.0.8"
 protobuf = "3.20.2"
 langchainhub = "^0.1.20"
+onnxruntime = "1.16.1"
 
 
 [build-system]
