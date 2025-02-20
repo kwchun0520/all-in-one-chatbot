@@ -47,7 +47,7 @@ class Chatbot:
         )
 
 
-    def create_engine_from_url(self, files:list)-> None:
+    def create_engine_from_file(self, files:list)-> None:
       
         llm = ChatGoogleGenerativeAI(model="gemini-1.5-flash")
         # Load, chunk and index the contents of the blog.
